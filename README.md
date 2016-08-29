@@ -2,31 +2,73 @@
 
 Cognitive Services, ML, Machine Learning, Data Ingestion, Azure, Docker, Container, R, Python, C#, Java, Hadoop, Spark etc
 
+# Processing
+
+The actual ML, Cognitive, AI part
+
 [Documentation for Microsoft Cognitive Services](https://github.com/Microsoft/Cognitive-Documentation) This repo contains the documentaiton for Microsoft Cognitive Services, which includes the former Project Oxford APIs. You can also check out our SDKs & Samples on our website.  Don't see what you're looking for? We're working on expanding our offerings and would love to hear from you what APIs, docs, SDKs, and samples you want to see next. Let us know on the Cognitive Services UserVoice Forum.
+
+[Intelligent Kiosk Sample](https://github.com/Microsoft/Cognitive-Samples-IntelligentKiosk) Welcome to the Intelligent Kiosk Sample! Here you will find several demos showcasing workflows and experiences built on top of the Microsoft Cognitive Services. https://www.microsoft.com/cognitive-services The Intelligent Kiosk Sample is a collection of demos showcasing workflows and experiences built on top of the Microsoft Cognitive Services. Most of the experiences are hands-free and autonomous, using the human faces in front of a web camera as the main form of input (thus the word "kiosk" in the name).
 
 [Computational Network Toolkit (CNTK)](https://github.com/Microsoft/CNTK) CNTK (http://www.cntk.ai/), the Computational Network Toolkit by Microsoft Research, is a unified deep-learning toolkit that describes neural networks as a series of computational steps via a directed graph. In this directed graph, leaf nodes represent input values or network parameters, while other nodes represent matrix operations upon their inputs. CNTK allows to easily realize and combine popular model types such as feed-forward DNNs, convolutional nets (CNNs), and recurrent networks (RNNs/LSTMs). It implements stochastic gradient descent (SGD, error backpropagation) learning with automatic differentiation and parallelization across multiple GPUs and servers. CNTK has been available under an open-source license since April 2015. It is our hope that the community will take advantage of CNTK to share ideas more quickly through the exchange of open source working code.
 
-[Language Understanding Intelligent Service API](https://github.com/Microsoft/Cognitive-LUIS-Windows) Windows (.Net) SDK for the Microsoft Language Understanding Intelligent Service API, part of Congitive Services http://www.microsoft.com/cognitive-services/en-us/language-understanding-intelligent-service-luis - LUIS is a service for language understanding that provides intent classification and entity extraction. In order to use the SDK you first need to create and publish an app on www.luis.ai where you will get your appID and appKey and put their values into App.config in the application provided. The solution contains the SDK itself and a sample application that contains 2 sample use cases (one with intent routers and one using the client directly)
-
-[Mobius](https://github.com/Microsoft/Mobius) C# language binding and extensions to Apache Spark. Mobius provides C# language binding to Apache Spark enabling the implementation of Spark driver program and data processing operations in the languages supported in the .NET framework like C# or F#.
-
-[Cognitive Services Face client library for Android](https://github.com/Microsoft/Cognitive-Face-Android) Cognitive Services Face client library for Android. https://www.microsoft.com/cognitive-services/en-us/face-api - This repo contains the Android client library & sample for the Microsoft Face API, an offering within Microsoft Cognitive Services, formerly known as Project Oxford.
-
-[Windows SDK for the Microsoft Face API](https://github.com/Microsoft/Cognitive-Face-Windows) This repo contains the Windows client library & sample for the Microsoft Face API, an offering within Microsoft Cognitive Services, formerly known as Project Oxford.
-
-[thrifty](https://github.com/Microsoft/thrifty) Thrifty is an implementation of the Apache Thrift software stack for Android, which uses 1/4 of the method count taken by the Apache Thrift compiler. Thrift is a widely-used cross-language service-definition software stack, with a nifty interface definition language from which to generate types and RPC implementations. Unfortunately for Android devs, the canonical implementation generates very verbose and method-heavy Java code, in a manner that is not very Proguard-friendly. Like Square's Wire project for Protocol Buffers, Thrifty does away with getters and setters (and is-setters and set-is-setters) in favor of public final fields. It maintains some core abstractions like Transport and Protocol, but saves on methods by dispensing with Factories and server implementations and only generating code for the protocols you actually need. Thrifty was born in the Outlook for Android codebase; before Thrifty, generated thrift classes consumed 20,000 methods. After Thrifty, the thrift method count dropped to 5,000.
-
 [Multiverso](https://github.com/Microsoft/multiverso) Multiverso is a parameter server based framework for training machine learning models on big data with numbers of machines. It is currently a standard C++ library and provides a series of friendly programming interfaces. With such easy-to-use APIs, machine learning researchers and practitioners do not need to worry about the system routine issues such as distributed model storage and operation, inter-process and inter-thread communication, multi-threading management, and so on. Instead, they are able to focus on the core machine learning logics: data, model, and training. For more details, please view our website http://www.dmtk.io.
 
-[Visual F# compiler and tools](https://github.com/Microsoft/visualfsharp) F# is a mature, open source, cross-platform, functional-first programming language which empowers users and organizations to tackle complex computing problems with simple, maintainable, and robust code. F# is used in a wide range of application areas and is supported by Microsoft and other industry-leading companies providing professional tools, and by an active open community. You can find out more about F# at http://fsharp.org.
+[Distributed Machine Learning Toolkit](https://github.com/Microsoft/DMTK) DMTK includes the following projects:
+- [DMTK framework(Multiverso)](https://github.com/Microsoft/multiverso): The parameter server framework for distributed machine learning.
+- [LightLDA](https://github.com/Microsoft/lightlda): Scalable, fast and lightweight system for large-scale topic modeling.
+- [Distributed word embedding](https://github.com/Microsoft/distributed_word_embedding): Distributed algorithm for word embedding.
+- [Distributed skipgram mixture](https://github.com/Microsoft/distributed_skipgram_mixture): Distributed algorithm for multi-sense word embedding.
+
 
 [Bot Builder SDK](https://github.com/Microsoft/BotBuilder) The Microsoft Bot Builder SDK is one of three main components of the Microsoft Bot Framework. The Microsoft Bot Framework provides just what you need to build and connect intelligent bots that interact naturally wherever your users are talking, from text/SMS to Skype, Slack, Office 365 mail and other popular services. http://botframework.com - Bots (or conversation agents) are rapidly becoming an integral part of one’s digital experience – they are as vital a way for users to interact with a service or application as is a web site or a mobile experience. Developers writing bots all face the same problems: bots require basic I/O; they must have language and dialog skills; and they must connect to users – preferably in any conversation experience and language the user chooses. The Bot Framework provides tools to easily solve these problems and more for developers e.g., automatic translation to more than 30 languages, user and conversation state management, debugging tools, an embeddable web chat control and a way for users to discover, try, and add bots to the conversation experiences they love.
 
-[PowerShell Module for Docker](https://github.com/Microsoft/Docker-PowerShell) This repo contains a PowerShell module for the Docker Engine. It can be used as an alternative to the Docker command-line interface (docker), or along side it. It can target a Docker daemon running on any operating system that supports Docker, including both Windows and Linux.
+[AzureBot](https://github.com/Microsoft/AzureBot) This is the source code which runs the Microsoft AzureBot. The AzureBot isn't public yet, but stay tuned. http://aka.ms/AzureBot - The AzureBot was created to improve the productivity of any developer, admin, or team working with Azure. It is not currently publicly available, but you can follow our Developer Set Up to run it yourself and contribute. This first implementation focuses on authenticating to the user's Azure subscription, selecting and switching subscriptions, starting and stopping RM-based virtual machines, and listing and starting Azure Automation runbooks. 
 
-[R Tools for Visual Studio](https://github.com/Microsoft/RTVS) R Tools for Visual Studio (RTVS). 
+[Project Malmo](https://github.com/Microsoft/malmo) Project Malmo is a platform for Artificial Intelligence experimentation and research built on top of Minecraft. We aim to inspire a new generation of research into challenging new problems presented by this unique environment. --- For installation instructions, scroll down to *Getting Started* below, or visit the project page for more information: https://www.microsoft.com/en-us/research/project/project-malmo/
 
-[Node.js Tools for Visual Studio](https://github.com/Microsoft/nodejstools) NTVS is a free, open source plugin that turns Visual Studio into a Node.js IDE. It is designed, developed, and supported by Microsoft and the community.
+[aerosolve](https://github.com/airbnb/aerosolve) A machine learning package built for humans. http://airbnb.github.io/aerosolve/ - A machine learning library designed from the ground up to be human friendly. It is different from other machine learning libraries in the following ways:
+-    A thrift based feature representation that enables pairwise ranking loss and single context multiple item representation.
+-    A feature transform language gives the user a lot of control over the features
+-    Human friendly debuggable models
+-    Separate lightweight Java inference code
+-    Scala code for training
+-    Simple image content analysis code suitable for ordering or ranking images
+-    This library is meant to be used with sparse, interpretable features such as those that commonly occur in search (search keywords, filters) or pricing (number of rooms, location, price). It is not as interpretable with problems with very dense non-human interpretable features such as raw pixels or audio samples.
+
+[Deep Scalable Sparse Tensor Network Engine (DSSTNE)](https://github.com/amznlabs/amazon-dsstne) Deep Scalable Sparse Tensor Network Engine (DSSTNE) is an Amazon developed library for building Deep Learning (DL) machine learning (ML) models - DSSTNE (pronounced "Destiny") is an open source software library for training and deploying deep neural networks using GPUs. Amazon engineers built DSSTNE to solve deep learning problems at Amazon's scale. DSSTNE is built for production deployment of real-world deep learning applications, emphasizing speed and scale over experimental flexibility.
+
+
+[Vowpal Wabbit](https://github.com/JohnLangford/vowpal_wabbit) Vowpal Wabbit is a machine learning system which pushes the frontier of machine learning with techniques such as online, hashing, allreduce, reductions, learning2search, active, and interactive learning. http://hunch.net/~vw/
+
+[TensorFlow](https://github.com/tensorflow/tensorflow) Computation using data flow graphs for scalable machine learning http://tensorflow.org - TensorFlow is an open source software library for numerical computation using data flow graphs. Nodes in the graph represent mathematical operations, while the graph edges represent the multidimensional data arrays (tensors) that flow between them. This flexible architecture lets you deploy computation to one or more CPUs or GPUs in a desktop, server, or mobile device without rewriting code. TensorFlow also includes TensorBoard, a data visualization toolkit.  TensorFlow was originally developed by researchers and engineers working on the Google Brain team within Google's Machine Intelligence research organization for the purposes of conducting machine learning and deep neural networks research. The system is general enough to be applicable in a wide variety of other domains, as well.
+
+[scikit-learn](https://github.com/scikit-learn/scikit-learn) scikit-learn is a Python module for machine learning built on top of SciPy 
+[Pattern](https://github.com/clips/pattern) Web mining module for Python, with tools for scraping, natural language processing, machine learning, network analysis and visualization. http://www.clips.ua.ac.be/pages/pattern 
+-    Data Mining: web services (Google, Twitter, Wikipedia), web crawler, HTML DOM parser
+-    Natural Language Processing: part-of-speech taggers, n-gram search, sentiment analysis, WordNet
+-    Machine Learning: vector space model, clustering, classification (KNN, SVM, Perceptron)
+-    Network Analysis: graph centrality and visualization.
+
+[Numenta Platform for Intelligent Computing](https://github.com/numenta/nupic) Numenta Platform for Intelligent Computing: a brain-inspired machine intelligence platform, and biologically accurate neural network based on cortical learning algorithms. http://numenta.org/ - The Numenta Platform for Intelligent Computing (NuPIC) is a machine intelligence platform that implements the HTM learning algorithms. HTM is a detailed computational theory of the neocortex. At the core of HTM are time-based continuous learning algorithms that store and recall spatial and temporal patterns. NuPIC is suited to a variety of problems, particularly anomaly detection and prediction of streaming data sources.
+
+[TPOT](https://github.com/rhiever/tpot) A Python tool that automatically creates and optimizes machine learning pipelines using genetic programming. http://rhiever.github.io/tpot/ - TPOT will automate the most tedious part of machine learning by intelligently exploring thousands of possible pipelines to find the best one for your data. Once TPOT is finished searching (or you get tired of waiting), it provides you with the Python code for the best pipeline it found so you can tinker with the pipeline from there. TPOT is built on top of scikit-learn, so all of the code it generates should look familiar... if you're familiar with scikit-learn, anyway.
+
+[Accord.NET Framework](https://github.com/accord-net/framework) The Accord.NET Framework http://accord-framework.net - The Accord.NET Framework provides machine learning, mathematics, statistics, computer vision, computer audition, and several scientific computing related methods and techniques to .NET. The project extends the popular AForge.NET Framework providing a more complete scientific computing environment.
+
+[Shogun Machine Learning Toolbox](https://github.com/shogun-toolbox/shogun) The Shogun Machine Learning Toolbox (Source Code) http://www.shogun-toolbox.org
+- The Shogun Machine learning toolbox provides a wide range of unified and efficient Machine Learning (ML) methods. The toolbox seamlessly allows to easily combine multiple data representations, algorithm classes, and general purpose tools. This enables both rapid prototyping of data pipelines and extensibility in terms of new algorithms. We combine modern software architecture in C++ with both efficient low-level computing backends and cutting edge algorithm implementations to solve large-scale Machine Learning problems (yet) on single machines.
+- One of Shogun's most exciting features is that you can use the toolbox through a unified interface from C++, Python, Octave, R, Java, Lua, C#, etc. This not just means that we are independent of trends in computing languages, but it also lets you use Shogun as a vehicle to expose your algorithm to multiple communities. We use SWIG to enable bidirectional communication between C++ and target languages. Shogun runs under Linux/Unix, MacOS, Windows.
+- Originally focussing on large-scale kernel methods and bioinformatics (for a list of scientific papers mentioning Shogun, see here), the toolbox saw massive extensions to other fields in recent years. It now offers features that span the whole space of Machine Learning methods, including many classical methods in classification, regression, dimensionality reduction, clustering, but also more advanced algorithm classes such as metric, multi-task, structured output, and online learning, as well as feature hashing, ensemble methods, and optimization, just to name a few. Shogun in addition contains a number of exclusive state-of-the art algorithms such as a wealth of efficient SVM implementations, Multiple Kernel Learning, kernel hypothesis testing, Krylov methods, etc. All algorithms are supported by a collection of general purpose methods for evaluation, parameter tuning, preprocessing, serialisation & I/O, etc; the resulting combinatorial possibilities are huge. See our feature list for more details.
+- The wealth of ML open-source software allows us to offer bindings to other sophisticated libraries including: LibSVM/LibLinear, SVMLight, LibOCAS, libqp, VowpalWabbit, Tapkee, SLEP, GPML and more. See our list of [integrated external libraries](http://www.shogun-toolbox.org/page/about/contributions)
+
+[mlpack](https://github.com/mlpack/mlpack) mlpack: a scalable C++ machine learning library - mlpack is an intuitive, fast, scalable C++ machine learning library, meant to be a machine learning analog to LAPACK. It aims to implement a wide array of machine learning methods and functions as a "swiss army knife" for machine learning researchers. The mlpack website can be found at http://www.mlpack.org and contains numerous tutorials and extensive documentation. 
+
+[Pipeline.IO](https://github.com/fluxcapacitor/pipeline) Real-time, End-to-End, Advanced Analytics and Machine Learning Recommendation Pipeline http://pipeline.io
+
+[Apache Hadoop](https://github.com/apache/hadoop) For the latest information about Hadoop, please visit our website at: http://hadoop.apache.org/core/ and our wiki, at:  http://wiki.apache.org/hadoop/
+
+[Apache Spark](https://github.com/apache/spark) Spark is a fast and general cluster computing system for Big Data. It provides high-level APIs in Scala, Java, Python, and R, and an optimized engine that supports general computation graphs for data analysis. It also supports a rich set of higher-level tools including Spark SQL for SQL and DataFrames, MLlib for machine learning, GraphX for graph processing, and Spark Streaming for stream processing. http://spark.apache.org/
 
 [Multiworld Testing Decision Service](https://github.com/Microsoft/mwt-ds) https://github.com/Microsoft/mwt-ds/wiki [MWT White Paper: Methodology; system design; how to make the DS fit your application; past deployments; experimental evaluation](https://github.com/Microsoft/mwt-ds/raw/master/images/MWT-WhitePaper.pdf)
 
@@ -34,6 +76,75 @@ Cognitive Services, ML, Machine Learning, Data Ingestion, Azure, Docker, Contain
     How to track competing predictions in real time.
     How to extract your model for experimentation outside of the DS
     How to delete your instance to save money, conserve your quota, etc.
+    
+# Visualization
+
+[HoloToolkit](https://github.com/Microsoft/HoloToolkit) The HoloToolkit is a collection of scripts and components intended to accelerate the development of holographic applications targeting Windows Holographic.
+
+[Holographic Academy](https://github.com/Microsoft/HolographicAcademy) This will be the home of all code assets necessary for the Holographic Academy. All of the courses can be found in their own branches. This is so developers can download zip folders for these tutorials from the Academy documentation.
+
+# Data Ingestion
+
+[Gobblin](https://github.com/linkedin/gobblin) Universal data ingestion framework for Hadoop. https://github.com/linkedin/gobblin/wiki - Gobblin is a universal data ingestion framework for extracting, transforming, and loading large volume of data from a variety of data sources, e.g., databases, rest APIs, FTP/SFTP servers, filers, etc., onto Hadoop. Gobblin handles the common routine tasks required for all data ingestion ETLs, including job/task scheduling, task partitioning, error handling, state management, data quality checking, data publishing, etc. Gobblin ingests data from different data sources in the same execution framework, and manages metadata of different sources all in one place. This, combined with other features such as auto scalability, fault tolerance, data quality assurance, extensibility, and the ability of handling data model evolution, makes Gobblin an easy-to-use, self-serving, and efficient data ingestion framework.
+
+[StreamSets DataCollector](https://github.com/streamsets/datacollector) StreamSets DataCollector - Continuous big data ingest infrastructure http://www.streamsets.com - StreamSets Data Collector is an enterprise grade, open source, continuous big data ingestion infrastructure. It has an advanced and easy to use User Interface that lets data scientists, developers and data infrastructure teams easily create data pipelines in a fraction of the time typically required to create complex ingest scenarios. Out of the box, StreamSets Data Collector reads from and writes to a large number of end-points, including S3, JDBC, Hadoop, Kafka, Cassandra and many others. You can use Python, Javascript and Java Expression Language in addition to a large number of pre-built stages to transform and process the data on the fly. For fault tolerance and scale out, you can setup data pipelines in cluster mode and perform fine grained monitoring at every stage of the pipeline.
+
+
+
+
+
+
+# API
+
+[Mobius](https://github.com/Microsoft/Mobius) C# language binding and extensions to Apache Spark. Mobius provides C# language binding to Apache Spark enabling the implementation of Spark driver program and data processing operations in the languages supported in the .NET framework like C# or F#.
+
+[Language Understanding Intelligent Service API](https://github.com/Microsoft/Cognitive-LUIS-Windows) Windows (.Net) SDK for the Microsoft Language Understanding Intelligent Service API, part of Congitive Services http://www.microsoft.com/cognitive-services/en-us/language-understanding-intelligent-service-luis - LUIS is a service for language understanding that provides intent classification and entity extraction. In order to use the SDK you first need to create and publish an app on www.luis.ai where you will get your appID and appKey and put their values into App.config in the application provided. The solution contains the SDK itself and a sample application that contains 2 sample use cases (one with intent routers and one using the client directly)
+
+[iOS SDK for the Microsoft Face API](https://github.com/Microsoft/Cognitive-Face-iOS) This repo contains the iOS client library & sample for the Microsoft Face API, an offering within Microsoft Cognitive Services, formerly known as Project Oxford.
+
+[Cognitive Services Face client library for Android](https://github.com/Microsoft/Cognitive-Face-Android) Cognitive Services Face client library for Android. https://www.microsoft.com/cognitive-services/en-us/face-api - This repo contains the Android client library & sample for the Microsoft Face API, an offering within Microsoft Cognitive Services, formerly known as Project Oxford.
+
+[Windows SDK for the Microsoft Face API](https://github.com/Microsoft/Cognitive-Face-Windows) This repo contains the Windows client library & sample for the Microsoft Face API, an offering within Microsoft Cognitive Services, formerly known as Project Oxford.
+
+[Python SDK for the Microsoft Face API](https://github.com/Microsoft/Cognitive-Face-Python) This Jupyter Notebook demonstrates how to use Python with the Microsoft Face API, an offering within Microsoft Cognitive Services, formerly known as Project Oxford.
+
+[Python SDK for the Microsoft Speaker Recognition API](https://github.com/Microsoft/Cognitive-SpeakerRecognition-Python) This repo contains Python samples (using Python 3) to demonstrate the use of Microsoft Speaker Recognition API, an offering within Microsoft Cognitive Services, formerly known as Project Oxford.
+
+[C++ REST SDK](https://github.com/Microsoft/cpprestsdk) The C++ REST SDK is a Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design. This project aims to help C++ developers connect to and interact with services. Are you new to the C++ Rest SDK? To get going we recommend you start by taking a look at our tutorial to use the http_client. It walks through how to setup a project to use the C++ Rest SDK and make a basic Http request. Other important information, like how to build the C++ Rest SDK from source, can be located on the documentation page. 
+
+[VIPR: Client Library Generation Toolkit](https://github.com/Microsoft/Vipr) VIPR is an extensible toolkit for generating Web Service Client Libraries. VIPR is designed to be highly extensible, enabling developers to adapt it to read new Web Service description languages and to create libraries for new target platforms with ease.  This repository contains the core VIPR infrastructure, Readers for OData v3 and v4, and Writers for C#, Objective-C, and Java. It also contains a Windows Command Line Interface application that can be used to drive Client Library generation.
+
+# Interface
+
+[thrifty](https://github.com/Microsoft/thrifty) Thrifty is an implementation of the Apache Thrift software stack for Android, which uses 1/4 of the method count taken by the Apache Thrift compiler. Thrift is a widely-used cross-language service-definition software stack, with a nifty interface definition language from which to generate types and RPC implementations. Unfortunately for Android devs, the canonical implementation generates very verbose and method-heavy Java code, in a manner that is not very Proguard-friendly. Like Square's Wire project for Protocol Buffers, Thrifty does away with getters and setters (and is-setters and set-is-setters) in favor of public final fields. It maintains some core abstractions like Transport and Protocol, but saves on methods by dispensing with Factories and server implementations and only generating code for the protocols you actually need. Thrifty was born in the Outlook for Android codebase; before Thrifty, generated thrift classes consumed 20,000 methods. After Thrifty, the thrift method count dropped to 5,000.
+
+[Bond](https://github.com/Microsoft/bond) Bond is a cross-platform framework for working with schematized data. It supports cross-language de/serialization and powerful generic mechanisms for efficiently manipulating data. Bond is broadly used at Microsoft in high scale services. Bond is an open source, cross-platform framework for working with schematized data. It supports cross-language serialization/deserialization and powerful generic mechanisms for efficiently manipulating data. Bond is broadly used at Microsoft in high scale services.  We are also introducing the Bond Communications framework--known as Bond Comm--which allows for remote process communication. Currently, we are making the C# version of this framework available; the C++ version will be released in the coming weeks. This framework is based on is the successor to an internal framework that is used by several large services inside Microsoft. Bond Comm is undergoing active evolution at this time and so we are marking the initial release as version 0.5. Consult the C# manual for more details on Bond Comm's usage and capabilities. [Bond Comm C# Example](https://github.com/Microsoft/bond-comm-cs-example) A simple example service, demonstrating the Communications framework of Bond. There are two examples in this repository, demonstrating the server- and client-side of a simple calculator.
+
+
+
+# Distributed Communication
+
+[Robust Distributed System Nucleus (rDSN)](https://github.com/Microsoft/rDSN) Robust Distributed System Nucleus (rDSN) is a framework for quickly building robust distributed systems. It has a microkernel for pluggable components, including applications, distributed frameworks, devops tools, and local runtime/resource providers, enabling their independent development and seamless integration. The project was originally developed for Microsoft Bing, and now has been adopted in production both inside and outside Microsoft. 
+
+# Languages
+
+The ML world has many complex systems originally constructed in a variety of programming languages. Language interoperability and tool support becomes an important issue
+
+[Visual F# compiler and tools](https://github.com/Microsoft/visualfsharp) F# is a mature, open source, cross-platform, functional-first programming language which empowers users and organizations to tackle complex computing problems with simple, maintainable, and robust code. F# is used in a wide range of application areas and is supported by Microsoft and other industry-leading companies providing professional tools, and by an active open community. You can find out more about F# at http://fsharp.org.
+
+[R Tools for Visual Studio](https://github.com/Microsoft/RTVS) R Tools for Visual Studio (RTVS). 
+
+[Node.js Tools for Visual Studio](https://github.com/Microsoft/nodejstools) NTVS is a free, open source plugin that turns Visual Studio into a Node.js IDE. It is designed, developed, and supported by Microsoft and the community.
+
+[Python Tools for Visual Studio](https://github.com/Microsoft/PTVS) PTVS is a free, open source plugin that turns Visual Studio into a Python IDE. 
+
+# Deployment and DevOps
+
+[PowerShell Module for Docker](https://github.com/Microsoft/Docker-PowerShell) This repo contains a PowerShell module for the Docker Engine. It can be used as an alternative to the Docker command-line interface (docker), or along side it. It can target a Docker daemon running on any operating system that supports Docker, including both Windows and Linux.
+
+
+
+
 
 [CommandLine-Documentation](https://github.com/Microsoft/CommandLine-Documentation) Gathering markdown documentation for Microsoft Command Line and associated interpreters.
 
@@ -50,9 +161,9 @@ Cognitive Services, ML, Machine Learning, Data Ingestion, Azure, Docker, Contain
 -    Discussion forum: http://wsl-forum.qztc.io
 -    Tips and guides for new bash users: https://github.com/abergs/ubuntuonwindows
 
-[VIPR: Client Library Generation Toolkit](https://github.com/Microsoft/Vipr) VIPR is an extensible toolkit for generating Web Service Client Libraries. VIPR is designed to be highly extensible, enabling developers to adapt it to read new Web Service description languages and to create libraries for new target platforms with ease.  This repository contains the core VIPR infrastructure, Readers for OData v3 and v4, and Writers for C#, Objective-C, and Java. It also contains a Windows Command Line Interface application that can be used to drive Client Library generation.
 
-[Python Tools for Visual Studio](https://github.com/Microsoft/PTVS) PTVS is a free, open source plugin that turns Visual Studio into a Python IDE. 
+
+
 
 [PowerShell Desired State Configuration - for Linux](https://github.com/Microsoft/PowerShell-DSC-for-Linux) Supported Linux operating systems - The following Linux operating system versions are supported by DSC for Linux.
 
@@ -63,13 +174,13 @@ Cognitive Services, ML, Machine Learning, Data Ingestion, Azure, Docker, Contain
     SUSE Linux Enterprise Server 10, 11 and 12 (x86/x64)
     Ubuntu Server 12.04 LTS, 14.04 LTS, 16.04 LTS (x86/x64)
 
-[Project Malmo](https://github.com/Microsoft/malmo) Project Malmo is a platform for Artificial Intelligence experimentation and research built on top of Minecraft. We aim to inspire a new generation of research into challenging new problems presented by this unique environment. --- For installation instructions, scroll down to *Getting Started* below, or visit the project page for more information: https://www.microsoft.com/en-us/research/project/project-malmo/
 
-[Python SDK for the Microsoft Face API](https://github.com/Microsoft/Cognitive-Face-Python) This Jupyter Notebook demonstrates how to use Python with the Microsoft Face API, an offering within Microsoft Cognitive Services, formerly known as Project Oxford.
+[Yeoman generator for Docker](https://github.com/Microsoft/generator-docker) This generator creates a Dockerfile and scripts (dockerTask.sh and dockerTask.ps1) that helps you build and run your project inside of a Docker container. The following project types are currently supported:
 
-[C++ REST SDK](https://github.com/Microsoft/cpprestsdk) The C++ REST SDK is a Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design. This project aims to help C++ developers connect to and interact with services. Are you new to the C++ Rest SDK? To get going we recommend you start by taking a look at our tutorial to use the http_client. It walks through how to setup a project to use the C++ Rest SDK and make a basic Http request. Other important information, like how to build the C++ Rest SDK from source, can be located on the documentation page. 
+[Run Hadoop Cluster within Docker Containers](https://github.com/kiwenlau/hadoop-cluster-docker) By packaging Hadoop into Docker image, we can easily build a Hadoop cluster within Docker containers on local host. http://kiwenlau.com/2016/06/26/hadoop-cluster-docker-update-english/
 
-[HoloToolkit](https://github.com/Microsoft/HoloToolkit) The HoloToolkit is a collection of scripts and components intended to accelerate the development of holographic applications targeting Windows Holographic.
+[HDFS/Spark Workbench](https://github.com/big-data-europe/docker-hadoop-spark-workbench) This repo includes deployment instructions for running HDFS/Spark inside docker containers. Also includes spark-notebook and HDFS FileBrowser.
+
 
 
 
