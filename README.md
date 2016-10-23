@@ -6,6 +6,8 @@ Cognitive Services, ML, Machine Learning, Data Ingestion, Azure, Docker, Contain
 
 What will become the primary source of Data for ML by orders of magnitude in the next decades
 
+
+
 # 1 - Signals - Vision, Audio etc
 
 
@@ -13,6 +15,9 @@ What will become the primary source of Data for ML by orders of magnitude in the
 
 
 # 2 - Data Ingestion
+
+[River View](https://github.com/htm-community/river-view) Public Temporal Streaming Data Service Framework http://data.numenta.org/ -  River View is a Public Temporal Streaming Data Service Framework (yes, that's a mouthful!). It provides a pluggable interface for users to expose temporal data streams in a time-boxed format that is easily query-able. It was built to provide a longer-lasting historical window for public data sources that provide only real-time data snapshots, especially for sensor data from public government services like weather, traffic, and geological data. River View fetches data from user-defined Rivers at regular intervals, populating a local Redis database. This data is provided in a windowed format, so that data older than a certain configured age is lost. But the window should be large enough to provide enough historical data to potentially train machine intelligence models on the data patterns within it.
+
 
 [Gobblin](https://github.com/linkedin/gobblin) Universal data ingestion framework for Hadoop. https://github.com/linkedin/gobblin/wiki - Gobblin is a universal data ingestion framework for extracting, transforming, and loading large volume of data from a variety of data sources, e.g., databases, rest APIs, FTP/SFTP servers, filers, etc., onto Hadoop. Gobblin handles the common routine tasks required for all data ingestion ETLs, including job/task scheduling, task partitioning, error handling, state management, data quality checking, data publishing, etc. Gobblin ingests data from different data sources in the same execution framework, and manages metadata of different sources all in one place. This, combined with other features such as auto scalability, fault tolerance, data quality assurance, extensibility, and the ability of handling data model evolution, makes Gobblin an easy-to-use, self-serving, and efficient data ingestion framework.
 
@@ -23,6 +28,8 @@ What will become the primary source of Data for ML by orders of magnitude in the
 # 3 - Processing
 
 The actual ML, Cognitive, AI part
+
+[caffe](https://github.com/BVLC/caffe) Caffe: a fast open framework for deep learning. http://caffe.berkeleyvision.org/  - Caffe is a deep learning framework made with expression, speed, and modularity in mind. It is developed by the Berkeley Vision and Learning Center (BVLC) and community contributors.
 
 [Documentation for Microsoft Cognitive Services](https://github.com/Microsoft/Cognitive-Documentation) This repo contains the documentaiton for Microsoft Cognitive Services, which includes the former Project Oxford APIs. You can also check out our SDKs & Samples on our website.  Don't see what you're looking for? We're working on expanding our offerings and would love to hear from you what APIs, docs, SDKs, and samples you want to see next. Let us know on the Cognitive Services UserVoice Forum.
 
@@ -39,9 +46,7 @@ The actual ML, Cognitive, AI part
 - [Distributed skipgram mixture](https://github.com/Microsoft/distributed_skipgram_mixture): Distributed algorithm for multi-sense word embedding.
 
 
-[Bot Builder SDK](https://github.com/Microsoft/BotBuilder) The Microsoft Bot Builder SDK is one of three main components of the Microsoft Bot Framework. The Microsoft Bot Framework provides just what you need to build and connect intelligent bots that interact naturally wherever your users are talking, from text/SMS to Skype, Slack, Office 365 mail and other popular services. http://botframework.com - Bots (or conversation agents) are rapidly becoming an integral part of one’s digital experience – they are as vital a way for users to interact with a service or application as is a web site or a mobile experience. Developers writing bots all face the same problems: bots require basic I/O; they must have language and dialog skills; and they must connect to users – preferably in any conversation experience and language the user chooses. The Bot Framework provides tools to easily solve these problems and more for developers e.g., automatic translation to more than 30 languages, user and conversation state management, debugging tools, an embeddable web chat control and a way for users to discover, try, and add bots to the conversation experiences they love.
 
-[AzureBot](https://github.com/Microsoft/AzureBot) This is the source code which runs the Microsoft AzureBot. The AzureBot isn't public yet, but stay tuned. http://aka.ms/AzureBot - The AzureBot was created to improve the productivity of any developer, admin, or team working with Azure. It is not currently publicly available, but you can follow our Developer Set Up to run it yourself and contribute. This first implementation focuses on authenticating to the user's Azure subscription, selecting and switching subscriptions, starting and stopping RM-based virtual machines, and listing and starting Azure Automation runbooks. 
 
 [Project Malmo](https://github.com/Microsoft/malmo) Project Malmo is a platform for Artificial Intelligence experimentation and research built on top of Minecraft. We aim to inspire a new generation of research into challenging new problems presented by this unique environment. --- For installation instructions, scroll down to *Getting Started* below, or visit the project page for more information: https://www.microsoft.com/en-us/research/project/project-malmo/
 
@@ -68,7 +73,39 @@ The actual ML, Cognitive, AI part
 -    Machine Learning: vector space model, clustering, classification (KNN, SVM, Perceptron)
 -    Network Analysis: graph centrality and visualization.
 
-[Numenta Platform for Intelligent Computing](https://github.com/numenta/nupic) Numenta Platform for Intelligent Computing: a brain-inspired machine intelligence platform, and biologically accurate neural network based on cortical learning algorithms. http://numenta.org/ - The Numenta Platform for Intelligent Computing (NuPIC) is a machine intelligence platform that implements the HTM learning algorithms. HTM is a detailed computational theory of the neocortex. At the core of HTM are time-based continuous learning algorithms that store and recall spatial and temporal patterns. NuPIC is suited to a variety of problems, particularly anomaly detection and prediction of streaming data sources.
+[Numenta Platform for Intelligent Computing](https://github.com/numenta/nupic) Numenta Platform for Intelligent Computing: a brain-inspired machine intelligence platform, and biologically accurate neural network based on cortical learning algorithms. http://numenta.org/ - The Numenta Platform for Intelligent Computing (NuPIC) is a machine intelligence platform that implements the HTM learning algorithms. HTM is a detailed computational theory of the neocortex. At the core of HTM are time-based continuous 
+learning algorithms that store and recall spatial and temporal patterns. NuPIC is suited to a variety of problems, particularly anomaly detection and prediction of streaming data sources.
+- [Metis](https://github.com/mrs110/Metis) Speech Recognition Project Using Numenta's NuPIC
+- [Cell Vis](https://github.com/numenta/cell-viz) This is an attempt at recreating an old illustration. See it live at https://numenta.github.io/cell-viz/ or fiddle with it at http://jsfiddle.net/7tbm3mv1/4/.
+- [HTM School Visualizations](https://github.com/htm-community/htm-school-viz)  Visualizations of Sparse Distributed Representations
+- [Numenta Apps](https://github.com/numenta/numenta-apps) HTM based applications and support libraries. Includes Grok for IT Analytics and Grok for Stocks (code name "NabVizTaurus"). http://numenta.com
+- [NabViz](https://github.com/y-takashina/NabViz) A visualization tool for Numenta Anomaly Benchmark (NAB). http://numenta.org/nab/
+- [Flight Path Anomaly Detection](https://github.com/shuai-zh/flight-path-anomaly-detection-system) A flight path anomaly detection simulation application using nupic(Numenta Platform for Intelligent Computing) and Cesium.js
+- [The Numenta Anomaly Benchmark](https://github.com/numenta/NAB) contains the data and scripts comprising the Numenta Anomaly Benchmark (NAB). NAB is a novel benchmark for evaluating algorithms for anomaly detection in streaming, real-time applications. It is comprised of over 50 labeled real-world and artificial timeseries data files plus a novel scoring mechanism designed for real-time applications. Included are the tools to allow you to easily run NAB on your own anomaly detection algorithms;
+- [https://github.com/binarybarry/HTM-Camera-Toolkit](https://github.com/binarybarry/HTM-Camera-Toolkit) The HTM Camera Toolkit is a research application that allows easy experimentation of Numenta's Hierarchical Temporal Memory (HTM) algorithms using real world video input from a camera/webcam.
+- [nupic.vision](https://github.com/numenta/nupic.vision) Tools for using Numenta/nupic on visual problems like image recognition.
+- [AI-909](https://github.com/TaylorPeer/AI-909) Intelligent drum machine powered by Numenta's Hierarchical Temporal Memory  
+- [Hypersearch](https://github.com/numenta/hypersearch) A particle swarm optimization library created by Numenta for hyperparameter optimization.
+
+### Javascript
+
+- [HTM](https://github.com/sebjwallace/HTM) progressive implimentation of Numenta's HTM model. Visualizations are included for the spatial pooler (then later temporal pooler).
+
+### C++/C
+- [LibHtm](https://github.com/pdJeeves/LibHtm) An implementation of Numenta's Hierarchical Temporal Memory in C
+- [HTMCLA](https://github.com/MichaelFerrier/HTMCLA) A C++ implementation of Numenta's Hierarchical Temporal Memory (HTM) Cortical Learning Algorithm (CLA). Uses Qt for user interface.
+
+### Java
+- [htm.java](https://github.com/numenta/htm.java) Hierarchical Temporal Memory implementation in Java - an official Community-Driven Java port of the Numenta Platform for Intelligent Computing (NuPIC).
+- [HTM](https://github.com/zygon4/htm) An attempt at implementing the Numenta HTM model in java
+
+### C#
+- [HTM.net](https://github.com/Zuntara/HTM.Net) Ported version of Numenta's Hierachical Temporal Memory Engine
+- [NabViz](https://github.com/y-takashina/NabViz) A visualization tool for Numenta Anomaly Benchmark (NAB). http://numenta.org/nab/
+- [dooHTM](https://github.com/avogab/dooHTM) The dooHTM is a c# Hello World application that permits a first glance at Numenta's Hierarchical Temporal Memory (HTM) algorithms using very simple generated motion images.
+
+
+
 
 [TPOT](https://github.com/rhiever/tpot) A Python tool that automatically creates and optimizes machine learning pipelines using genetic programming. http://rhiever.github.io/tpot/ - TPOT will automate the most tedious part of machine learning by intelligently exploring thousands of possible pipelines to find the best one for your data. Once TPOT is finished searching (or you get tired of waiting), it provides you with the Python code for the best pipeline it found so you can tinker with the pipeline from there. TPOT is built on top of scikit-learn, so all of the code it generates should look familiar... if you're familiar with scikit-learn, anyway.
 
@@ -82,6 +119,36 @@ The actual ML, Cognitive, AI part
 
 [mlpack](https://github.com/mlpack/mlpack) mlpack: a scalable C++ machine learning library - mlpack is an intuitive, fast, scalable C++ machine learning library, meant to be a machine learning analog to LAPACK. It aims to implement a wide array of machine learning methods and functions as a "swiss army knife" for machine learning researchers. The mlpack website can be found at http://www.mlpack.org and contains numerous tutorials and extensive documentation. 
 
+[Deep Neural Networks as a Service](https://github.com/claritylab/djinn) - Deep Neural Networks (DNNs) as a Service http://www.djinn.clarity-lab.org - DjiNN and Tonic is a Deep Neural Network (DNN) based web-service to execute DNN inference. [Tonic Suite](http://djinn.clarity-lab.org/tonic-suite/) is a suite of 7 applications that use the service. Tonic Suite includes image, speech, and natural language processing applications that use a common DNN backend as their machine learning component. DjiNN and Tonic is developed by Clarity Lab at the University of Michigan.
+
+[ConvNetJS](https://github.com/karpathy/convnetjs) - Deep Learning in Javascript. Train Convolutional Neural Networks (or ordinary ones) in your browser. [ConvNetJS](http://cs.stanford.edu/people/karpathy/convnetjs/) is a Javascript implementation of Neural networks, together with nice browser-based demos. It currently supports:
+-    Common Neural Network modules (fully connected layers, non-linearities)
+-    Classification (SVM/Softmax) and Regression (L2) cost functions
+-    Ability to specify and train Convolutional Networks that process images
+-    An experimental Reinforcement Learning module, based on Deep Q Learning
+
+[ConvNetSharp](https://github.com/cbovar/ConvNetSharp) C# port of ConvNetJS. You can use ConvNetSharp to train and evaluate convolutional neural networks (CNN).
+
+[mxnet](https://github.com/dmlc/mxnet) Lightweight, Portable, Flexible Distributed/Mobile Deep Learning with Dynamic, Mutation-aware Dataflow Dep Scheduler; for Python, R, Julia, Scala, Go, Javascript and more http://mxnet.io - MXNet is a deep learning framework designed for both efficiency and flexibility. It allows you to mix the flavours of symbolic programming and imperative programming to maximize efficiency and productivity. In its core, a dynamic dependency scheduler that automatically parallelizes both symbolic and imperative operations on the fly. A graph optimization layer on top of that makes symbolic execution fast and memory efficient. The library is portable and lightweight, and it scales to multiple GPUs and multiple machines. MXNet is also more than a deep learning project. It is also a collection of blue prints and guidelines for building deep learning system, and interesting insights of DL systems for hackers.
+
+[Neon](https://github.com/NervanaSystems/neon) Fast, scalable, easy-to-use Python based Deep Learning Framework by Nervana™ http://neon.nervanasys.com/ - neon is Nervana's Python based Deep Learning framework and achieves the fastest performance on modern deep neural networks such as AlexNet, VGG and GoogLeNet. Designed for ease-of-use and extensibility.
+-    Tutorials and iPython notebooks to get users started with using neon for deep learning.
+-    Support for commonly used layers: convolution, RNN, LSTM, GRU, BatchNorm, and more.
+-    Model Zoo contains pre-trained weights and example scripts for start-of-the-art models, including: VGG, Reinforcement learning, Deep Residual Networks, Image Captioning, Sentiment analysis, and more.
+-    Swappable hardware backends: write code once and then deploy on CPUs, GPUs, or Nervana hardware
+- [neon course](https://github.com/NervanaSystems/neon_course) contains several jupyter notebooks to help users learn to use neon, our deep learning framework. For more information, see our documentation and our API.
+- [aeon](https://github.com/NervanaSystems/aeon) module for data loading and transforming
+- [ModelZoo](https://github.com/NervanaSystems/ModelZoo) contains a number of standard deep learning models that can be run with the neon libraries.
+
+[Lasagne](https://github.com/Lasagne/Lasagne) Lightweight library to build and train neural networks in [Theano](http://www.deeplearning.net/software/theano/) http://lasagne.readthedocs.org/  Lasagne is a lightweight library to build and train neural networks in Theano. Its main features are:
+-    Supports feed-forward networks such as Convolutional Neural Networks (CNNs), recurrent networks including Long Short-Term Memory (LSTM), and any combination thereof
+-    Allows architectures of multiple inputs and multiple outputs, including auxiliary classifiers
+-    Many optimization methods including Nesterov momentum, RMSprop and ADAM
+-    Freely definable cost function and no need to derive gradients due to Theano's symbolic differentiation
+-    Transparent support of CPUs and GPUs due to Theano's expression compiler
+
+[Theano](https://github.com/Theano/Theano) Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. It can use GPUs and perform efficient symbolic differentiation. http://www.deeplearning.net/software/theano
+
 [Pipeline.IO](https://github.com/fluxcapacitor/pipeline) Real-time, End-to-End, Advanced Analytics and Machine Learning Recommendation Pipeline http://pipeline.io
 
 [Apache Hadoop](https://github.com/apache/hadoop) For the latest information about Hadoop, please visit our website at: http://hadoop.apache.org/core/ and our wiki, at:  http://wiki.apache.org/hadoop/
@@ -94,6 +161,16 @@ The actual ML, Cognitive, AI part
     How to track competing predictions in real time.
     How to extract your model for experimentation outside of the DS
     How to delete your instance to save money, conserve your quota, etc.
+
+# 4 - Bots
+
+[superscript](https://github.com/superscriptjs/superscript) A dialogue engine for creating chat bots http://superscriptjs.com -  SuperScript is a dialog system + bot engine for creating human-like conversation chat bots. It exposes an expressive script for crafting dialogue and features text-expansion using wordnet and Information Retrieval and extraction using ConceptNet.
+
+[SimpleDS](https://github.com/cuayahuitl/SimpleDS) A Simple Deep Reinforcement Learning Dialogue System - SimpleDS is a simple dialogue system trained with deep reinforcement learning. In contrast to other dialogue systems, this system selects dialogue actions directly from raw (noisy) text of the last system and user responses. The motivation is to train dialogue agents with as little human intervention as possible. 
+
+[Bot Builder SDK](https://github.com/Microsoft/BotBuilder) The Microsoft Bot Builder SDK is one of three main components of the Microsoft Bot Framework. The Microsoft Bot Framework provides just what you need to build and connect intelligent bots that interact naturally wherever your users are talking, from text/SMS to Skype, Slack, Office 365 mail and other popular services. http://botframework.com - Bots (or conversation agents) are rapidly becoming an integral part of one’s digital experience – they are as vital a way for users to interact with a service or application as is a web site or a mobile experience. Developers writing bots all face the same problems: bots require basic I/O; they must have language and dialog skills; and they must connect to users – preferably in any conversation experience and language the user chooses. The Bot Framework provides tools to easily solve these problems and more for developers e.g., automatic translation to more than 30 languages, user and conversation state management, debugging tools, an embeddable web chat control and a way for users to discover, try, and add bots to the conversation experiences they love.
+
+[AzureBot](https://github.com/Microsoft/AzureBot) This is the source code which runs the Microsoft AzureBot. The AzureBot isn't public yet, but stay tuned. http://aka.ms/AzureBot - The AzureBot was created to improve the productivity of any developer, admin, or team working with Azure. It is not currently publicly available, but you can follow our Developer Set Up to run it yourself and contribute. This first implementation focuses on authenticating to the user's Azure subscription, selecting and switching subscriptions, starting and stopping RM-based virtual machines, and listing and starting Azure Automation runbooks. 
     
 # 4 - Visualization - BI, Dashboards, Interactive, 3D Augmented, 3D VR
 
@@ -101,6 +178,9 @@ The actual ML, Cognitive, AI part
 
 [Holographic Academy](https://github.com/Microsoft/HolographicAcademy) This will be the home of all code assets necessary for the Holographic Academy. All of the courses can be found in their own branches. This is so developers can download zip folders for these tutorials from the Academy documentation.
 
+[Seriously.js](https://github.com/brianchirls/Seriously.js) A real-time, node-based video effects compositor for the web built with HTML5, Javascript and WebGL http://seriouslyjs.org - Seriously.js is a real-time, node-based video compositor for the web. Inspired by professional software such as After Effects and Nuke, Seriously.js renders high-quality video effects, but allows them to be dynamic and interactive.
+
+[Deep Visualization Toolbox](https://github.com/yosinski/deep-visualization-toolbox) This is the code required to run the Deep Visualization Toolbox, as well as to generate the neuron-by-neuron visualizations using regularized optimization.
 
 # Supporting Infrastructure and Glue Bits
 
