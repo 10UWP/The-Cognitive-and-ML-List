@@ -2,7 +2,25 @@
 
 Cognitive Services, ML, Machine Learning, Data Ingestion, Azure, Docker, Container, R, Python, C#, Java, Hadoop, Spark etc
 
-# Processing
+# 1 - IOT 
+
+What will become the primary source of Data for ML by orders of magnitude in the next decades
+
+# 1 - Signals - Vision, Audio etc
+
+
+# 1 - DoD - Data on Disk
+
+
+# 2 - Data Ingestion
+
+[Gobblin](https://github.com/linkedin/gobblin) Universal data ingestion framework for Hadoop. https://github.com/linkedin/gobblin/wiki - Gobblin is a universal data ingestion framework for extracting, transforming, and loading large volume of data from a variety of data sources, e.g., databases, rest APIs, FTP/SFTP servers, filers, etc., onto Hadoop. Gobblin handles the common routine tasks required for all data ingestion ETLs, including job/task scheduling, task partitioning, error handling, state management, data quality checking, data publishing, etc. Gobblin ingests data from different data sources in the same execution framework, and manages metadata of different sources all in one place. This, combined with other features such as auto scalability, fault tolerance, data quality assurance, extensibility, and the ability of handling data model evolution, makes Gobblin an easy-to-use, self-serving, and efficient data ingestion framework.
+
+[StreamSets DataCollector](https://github.com/streamsets/datacollector) StreamSets DataCollector - Continuous big data ingest infrastructure http://www.streamsets.com - StreamSets Data Collector is an enterprise grade, open source, continuous big data ingestion infrastructure. It has an advanced and easy to use User Interface that lets data scientists, developers and data infrastructure teams easily create data pipelines in a fraction of the time typically required to create complex ingest scenarios. Out of the box, StreamSets Data Collector reads from and writes to a large number of end-points, including S3, JDBC, Hadoop, Kafka, Cassandra and many others. You can use Python, Javascript and Java Expression Language in addition to a large number of pre-built stages to transform and process the data on the fly. For fault tolerance and scale out, you can setup data pipelines in cluster mode and perform fine grained monitoring at every stage of the pipeline.
+
+
+
+# 3 - Processing
 
 The actual ML, Cognitive, AI part
 
@@ -77,24 +95,17 @@ The actual ML, Cognitive, AI part
     How to extract your model for experimentation outside of the DS
     How to delete your instance to save money, conserve your quota, etc.
     
-# Visualization
+# 4 - Visualization - BI, Dashboards, Interactive, 3D Augmented, 3D VR
 
 [HoloToolkit](https://github.com/Microsoft/HoloToolkit) The HoloToolkit is a collection of scripts and components intended to accelerate the development of holographic applications targeting Windows Holographic.
 
 [Holographic Academy](https://github.com/Microsoft/HolographicAcademy) This will be the home of all code assets necessary for the Holographic Academy. All of the courses can be found in their own branches. This is so developers can download zip folders for these tutorials from the Academy documentation.
 
-# Data Ingestion
 
-[Gobblin](https://github.com/linkedin/gobblin) Universal data ingestion framework for Hadoop. https://github.com/linkedin/gobblin/wiki - Gobblin is a universal data ingestion framework for extracting, transforming, and loading large volume of data from a variety of data sources, e.g., databases, rest APIs, FTP/SFTP servers, filers, etc., onto Hadoop. Gobblin handles the common routine tasks required for all data ingestion ETLs, including job/task scheduling, task partitioning, error handling, state management, data quality checking, data publishing, etc. Gobblin ingests data from different data sources in the same execution framework, and manages metadata of different sources all in one place. This, combined with other features such as auto scalability, fault tolerance, data quality assurance, extensibility, and the ability of handling data model evolution, makes Gobblin an easy-to-use, self-serving, and efficient data ingestion framework.
-
-[StreamSets DataCollector](https://github.com/streamsets/datacollector) StreamSets DataCollector - Continuous big data ingest infrastructure http://www.streamsets.com - StreamSets Data Collector is an enterprise grade, open source, continuous big data ingestion infrastructure. It has an advanced and easy to use User Interface that lets data scientists, developers and data infrastructure teams easily create data pipelines in a fraction of the time typically required to create complex ingest scenarios. Out of the box, StreamSets Data Collector reads from and writes to a large number of end-points, including S3, JDBC, Hadoop, Kafka, Cassandra and many others. You can use Python, Javascript and Java Expression Language in addition to a large number of pre-built stages to transform and process the data on the fly. For fault tolerance and scale out, you can setup data pipelines in cluster mode and perform fine grained monitoring at every stage of the pipeline.
+# Supporting Infrastructure and Glue Bits
 
 
-
-
-
-
-# API
+## API
 
 [Mobius](https://github.com/Microsoft/Mobius) C# language binding and extensions to Apache Spark. Mobius provides C# language binding to Apache Spark enabling the implementation of Spark driver program and data processing operations in the languages supported in the .NET framework like C# or F#.
 
@@ -114,7 +125,7 @@ The actual ML, Cognitive, AI part
 
 [VIPR: Client Library Generation Toolkit](https://github.com/Microsoft/Vipr) VIPR is an extensible toolkit for generating Web Service Client Libraries. VIPR is designed to be highly extensible, enabling developers to adapt it to read new Web Service description languages and to create libraries for new target platforms with ease.  This repository contains the core VIPR infrastructure, Readers for OData v3 and v4, and Writers for C#, Objective-C, and Java. It also contains a Windows Command Line Interface application that can be used to drive Client Library generation.
 
-# Interface
+## Interface
 
 [thrifty](https://github.com/Microsoft/thrifty) Thrifty is an implementation of the Apache Thrift software stack for Android, which uses 1/4 of the method count taken by the Apache Thrift compiler. Thrift is a widely-used cross-language service-definition software stack, with a nifty interface definition language from which to generate types and RPC implementations. Unfortunately for Android devs, the canonical implementation generates very verbose and method-heavy Java code, in a manner that is not very Proguard-friendly. Like Square's Wire project for Protocol Buffers, Thrifty does away with getters and setters (and is-setters and set-is-setters) in favor of public final fields. It maintains some core abstractions like Transport and Protocol, but saves on methods by dispensing with Factories and server implementations and only generating code for the protocols you actually need. Thrifty was born in the Outlook for Android codebase; before Thrifty, generated thrift classes consumed 20,000 methods. After Thrifty, the thrift method count dropped to 5,000.
 
@@ -122,11 +133,11 @@ The actual ML, Cognitive, AI part
 
 
 
-# Distributed Communication
+## Distributed Communication
 
 [Robust Distributed System Nucleus (rDSN)](https://github.com/Microsoft/rDSN) Robust Distributed System Nucleus (rDSN) is a framework for quickly building robust distributed systems. It has a microkernel for pluggable components, including applications, distributed frameworks, devops tools, and local runtime/resource providers, enabling their independent development and seamless integration. The project was originally developed for Microsoft Bing, and now has been adopted in production both inside and outside Microsoft. 
 
-# Languages
+## Languages
 
 The ML world has many complex systems originally constructed in a variety of programming languages. Language interoperability and tool support becomes an important issue
 
@@ -138,7 +149,7 @@ The ML world has many complex systems originally constructed in a variety of pro
 
 [Python Tools for Visual Studio](https://github.com/Microsoft/PTVS) PTVS is a free, open source plugin that turns Visual Studio into a Python IDE. 
 
-# Deployment and DevOps
+## Deployment and DevOps
 
 [PowerShell Module for Docker](https://github.com/Microsoft/Docker-PowerShell) This repo contains a PowerShell module for the Docker Engine. It can be used as an alternative to the Docker command-line interface (docker), or along side it. It can target a Docker daemon running on any operating system that supports Docker, including both Windows and Linux.
 
