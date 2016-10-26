@@ -273,6 +273,104 @@ The ML world has many complex systems originally constructed in a variety of pro
 [HDFS/Spark Workbench](https://github.com/big-data-europe/docker-hadoop-spark-workbench) This repo includes deployment instructions for running HDFS/Spark inside docker containers. Also includes spark-notebook and HDFS FileBrowser.
 
 
+# Appendix - IOT Notes
+
+- [Spending on IoT predicted to reach $1.7 trillion by 2020](http://venturebeat.com/2015/06/03/spending-on-iot-predicted-to-reach-1-7-trillion-by-2020/)
+- [For the Internet of things, the cost of cheap will be steep](http://venturebeat.com/2015/01/10/for-the-internet-of-things-the-cost-of-cheap-will-be-steep/) But at the Black Hat conference this past year, hackers compromised the Google Nest thermostat to reveal the weaknesses of these connected devices and appliances. As the IoT market matures, these widely deployed and low-cost sensors and devices are less likely to be viewed as worth continued maintenance. Offering a constant stream of security patches and updates to keep low-cost devices safe and functional for the long term requires money. If vulnerabilities are discovered, patches or updates might be issued, but only in the first year or two. The vendor expectation is that users will need to buy a full replacement or live with the risks — not to mention that users are not very likely to manage patches and updates for non-critical devices. Cheap and vulnerable devices will linger on networks like ticking time bombs, and the choice will be to either replace them or tolerate them with their liabilities. Simply tolerating the risks of low-cost devices could incite major long-term challenges for our economy.
+- [Verdigris raises $6.7 million for artificial intelligence that powers green factories and hotels](http://venturebeat.com/2016/10/20/verdigris-raises-6-7-million-for-artificial-intelligence-that-powers-green-factories-and-hotels/) The smart energy startup Verdigris announced today that it has raised $6.7 million to scale production of its Einstein smart sensor and frequency detectors. The sensors are used to predict the failure of machines and improve energy efficiency.
+- [Xenio raises funding for smart lighting and the Internet of Things (update)](http://venturebeat.com/2016/10/06/xenio-raises-5-million-for-smart-lighting-and-the-internet-of-things/) The company believes it can accelerate the deployment of the Internet of Things by embedding its cloud-based solution into Bridgelux’s smart lights, which are controlled via internet apps. Xenio uses those lights as beacons that can discover who is nearby and beam location-based promotional messages to the passersby. Xenio collects data through a two-way communications loop with smartphone users, and it provides them with targeted marketing messages from the businesses the customers are already visiting.
+- [IBM to pour $200 million into Watson Internet of Things A.I. business in Munich](http://venturebeat.com/2016/10/03/ibm-to-pour-200-million-into-watson-internet-of-things-a-i-business-in-munich/) It’s also part of a global plan to invest $3 billion to bring Watson’s cognitive computing to IoT. The investment in Munich is one of the company’s largest ever in Europe and is in response to growing demand from customers who want to transform their operations with A.I. and IoT.
+- [Beyond Verbal wants to use virtual assistants to detect disease by analyzing your voice](http://venturebeat.com/2016/09/26/beyond-verbal-wants-to-use-virtual-assistants-to-detect-disease-by-analyzing-your-voice/) For the past two years, a startup called Beyond Verbal has been working on disease detection through voice samples and machine learning, an application Zuckerberg himself has talked about as having interesting potential. Today, the company launched the Beyond mHealth Research Platform to collaborate with research institutes, hospitals, businesses, and universities to collectively search for unique markers in voice samples.
+- [Amazon’s Alexa Fund leads $5.6 million round for smart home startup Nucleus](http://venturebeat.com/2016/09/21/amazons-alexa-fund-leads-5-6-million-round-for-smart-home-startup-nucleus/) Enabled by Wi-Fi, Nucleus lets you use voice or video in the home to chat with other Nucleus devices or with Nucleus iOS and Android apps around the world
+- [GE and Cisco face off over industrial IoT](http://venturebeat.com/2016/08/27/ge-and-cisco-face-off-over-industrial-iot/) Corporate giants are in an all-out race to dominate the widely coveted Internet of Things (IoT) landscape. Today, eight companies with market capitalizations over $150 billion actively promote IoT solutions: Google, Microsoft, Amazon, General Electric, AT&T, Verizon, IBM, and Cisco. When you take away the cloud, computing, and telecommunications players, you’re left with an interesting face off between General Electric and Cisco — both of which are targeting industrial IoT. U.S. organizations will invest more than $232 billion in Internet of Things hardware, software, services, and connectivity this year. And IDC expects U.S. IoT revenues will experience a compound annual growth rate of 16.1 percent over the 2015-2019 forecast period, reaching more than $357 billion in 2019.
+- [How Intel and GE plan to make cities smarter](http://venturebeat.com/2016/08/17/how-intel-and-ge-team-plan-to-make-cities-smarter/) Intel estimates that each one of us will use 1.5 gigabytes of data per day by 2020. A smart hospital will use 3,000 gigabytes a day. And a smart factory could use a million gigabytes of data per day. “We are at a line of demarcation where you embrace the future or you are unable to satisfy the needs of your customers,” said Immelt. “Every industrial company has to transform itself into a digital company.”
+- [Xperiel raises $7 million to connect the digital and real worlds with mixed reality](http://venturebeat.com/2016/08/11/xperiel-raises-7-million-to-connect-the-digital-and-real-worlds-with-mixed-reality/) Technology today is largely inadequate when it comes to addressing how to leverage the IoT and physical infrastructure to better engage customers and drive commerce,” said Stephen Hendrick, principal analyst for application development and deployment research at ESG, in a statement. “Xperiel is breaking new ground by providing a highly abstracted language for building event-driven, device-agnostic applications, as well as an IoT-centric connectivity fabric that ties together devices, events, and content to enable customer-engagement and commerce that is far more effective than other available solutions.”
+- [Onboard diagnostics will connect cars to the Internet of Things](http://venturebeat.com/2016/08/07/onboard-diagnostics-will-connect-cars-to-the-internet-of-things/) A 2011 Machina Research study forecasted that by 2022, there will be 1.8 billion machine-to-machine (M2M) automotive connections, consisting of 700 million connected cars and a $1.1 billion aftermarket in devices for services.
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+
+
+
+- []()
+
+
+
 
 
 
