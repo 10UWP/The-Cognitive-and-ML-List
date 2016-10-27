@@ -276,7 +276,13 @@ The ML world has many complex systems originally constructed in a variety of pro
 # Appendix - IOT Notes
 
 - [Spending on IoT predicted to reach $1.7 trillion by 2020](http://venturebeat.com/2015/06/03/spending-on-iot-predicted-to-reach-1-7-trillion-by-2020/)
+- [Google starts early access program to let developers try its Brillo OS for connected devices](http://venturebeat.com/2015/10/27/google-starts-early-access-program-to-let-developers-try-its-brillo-os-for-connected-devices/) “Brillo brings the simplicity and speed of software development to hardware by offering you a lightweight embedded OS based on Android, core services, a developer kit, and a developer console,” Googlers Gayathri Rajan and Ryan Cairns wrote in a blog post today. “You can choose from a variety of hardware capabilities and customization options, quickly move from prototype to production, and manage at scale with over the air (OTA) updates, metrics, and crash reporting.” Brillo works with Intel, MIPS, and ARM-based chips, but for now Google is steering people toward Brillo-certified boards. The OS gets small updates every six weeks
+- [Microsoft releases free Windows 10 IoT Core for Raspberry Pi 2, MinnowBoard Max](http://venturebeat.com/2015/08/10/microsoft-releases-free-windows-10-iot-core-for-raspberry-pi-2-minnowboard-max/) Windows 10 IoT Core (the tiny version of Windows designed for sensor-laden Internet-connected devices) for two types of maker-friendly hardware: the Raspberry Pi 2 and the MinnowBoard Max. Wi-Fi and Bluetooth support, as well as improved GPIO performance on the Raspberry Pi 2
+- [NXP unveils a tiny 64-bit ARM processor for the Internet of Things](http://venturebeat.com/2016/02/21/nxp-unveils-a-small-and-tiny-64-bit-arm-processor-for-the-internet-of-things/) NXP Semiconductors has unveiled what it calls the world’s smallest and lowest-power 64-bit ARM processor for the Internet of Things (IoT). The tiny QorIQ LS1012A delivers networking-grade security and performance acceleration to battery-powered, space-constrained applications. This includes powering applications for Internet of Things, or everyday objects that are smart and connected. If IoT is to reach its potential of $1.7 trillion by 2020 (as estimated by market researcher IDC), it’s going to need processors like the new one from NXP, which was unveiled at the Embedded World 2016 event in Nuremberg, Germany. The chip has a 64-bit ARMv8 processor with network packet acceleration and built-in security. It fits in a 9.6 mm-square space and draws about 1 watt of power. Potential applications include next-generation IoT gateways, portable entertainment platforms, high-performance portable storage applications, mobile hard disk drives, and mobile storage for cameras, tablets, and other rechargeable devices.
+- [That’s not a blade of grass — It’s a Freescale Internet of Things chip](http://venturebeat.com/2015/12/01/thats-not-a-blade-of-grass-its-a-freescale-internet-of-things-chip-2/) Freescale‘s newest chip is as thin as a blade of grass. Targeted at Internet of Things applications, which are expected to become a $1.7 trillion market by 2020, the Kinetis K22 microcontroller from Freescale is just 0.34 millimeters in height. But it packs a 120-megahertz processor and a variety of memories and interfaces into a tiny little package for Internet of Things applications. The Kinetis is a new breed of microcontroller, or MCU, which packs all of the necessary components for running an appliance-like device, such as an automated glucose monitor for diabetes patients. Freescale envisions its chip being embedded in a stretchable electronic patch or even under the skin, as an implant for such monitors. Earlier this year, Freescale unveiled the world’s smallest single-chip module (SCM) for the IoT, replacing a six-inch board with a device the size of the U.S. dime and reducing the need for 100-plus components down to just one.
+- [Come on! You know you want to connect your wall sockets and light bulbs to the Internet](http://venturebeat.com/2016/01/05/you-know-you-want-to-connect-your-wall-sockets-and-light-bulbs-to-the-internet/) The iDevices Wall Outlet gives you the ability to control power to an outlet. It will be ready for sale in the third quarter. No word on pricing just yet.
 - [Y Combinator-backed Mosaic connects wearables, Internet of Things](http://venturebeat.com/2016/07/12/y-combinator-backed-mosaic-connects-wearables-internet-of-things/) has released a new beta version of its assistant on Amazon Alexa, Slack, SMS, and Facebook Messenger. Mosaic connects a single chatbot to more than a dozen wearables and IoT devices, ranging from lightbulbs to Tesla cars. Essentially, the chatbot takes all the data we compile in our personal lives and helps us make sense of it. Mosaic wants to give people advice based on all the data accumulated by wearables and internet-connected devices and can also explain things like water usage and how to get energy. In the future, Mosaic wants your fitness wearable to talk to you about personal fitness challenges, make sure you’re getting enough sleep, and tell you when you need to exercise
+- [Microsoft, Intel, Samsung, & others launch IoT standards group: Open Connectivity Foundation](http://venturebeat.com/2016/02/19/microsoft-intel-samsung-others-launch-iot-standards-group-open-connectivity-foundation/) Giants of the tech world are banding together to found a new group to support the burgeoning Internet of Things (IoT) industry. The Open Connectivity Foundation (OCF) is touted as an open IoT standards group to unify standards, expedite innovation, and “create IoT solutions and devices that work seamlessly together,” according to a press release. Founding members include Microsoft, Cisco, Electrolux, General Electric, Intel, Qualcomm, Samsung, ARRIS, and CableLabs, who will work together to create specifications and protocols to ensure devices from a myriad of manufacturers work in harmony. Elsewhere, Microsoft is making a big IoT play with Windows 10 and Azure, as the company looks to build an operating system that delivers access to universal apps and driver models that work across any device, from fridges and ATMs to industrial robotics.
 - [Teens use Windows 10 IoT Core to run science experiments in space](http://venturebeat.com/2016/03/31/teens-use-windows-10-iot-core-to-run-science-experiments-in-space/)  they’ll conduct science experiments on things like seeing how metals react to electromagnetic energy in space. They’ll rely on a robotic arm and a camera to take photographic evidence of what happens. The code running on the board is written in C#. What this shield did is it gave us the ability to have eight copies of the OS in eight different USB sticks,” Quest’s Kim said. “They created a custom hardware watchdog to see if the OS got corrupted … it would actually reboot to the next uncorrupted OS. It gave us a system to operate in the harsh environment of space.”
 - [How Silicon Valley is botching IoT](http://venturebeat.com/2016/05/22/how-silicon-valley-is-botching-iot/) The chief culprit here is not coding but culture. In Silicon Valley, the priority is to get on the latest disruptive platform and rush to be first to market. And we seem to be collectively suffering from amnesia. We keep seeing the same security problems over and over again in the mobile ecosystem, as inexperienced teams rush their apps to market, leaving many of them vulnerable to hacking. Repeating this pattern, we regularly see IoT devices being produced by people with little or no hardware experience and scant background dealing with interaction between hardware, middleware, and software.
 - [Helium raises $20 million for smart industrial sensors](http://venturebeat.com/2016/04/25/helium-raises-20m-for-smart-industrial-sensors/) The Helium Green sensor can monitor temperature, humidity, barometric pressure, light, and motion. Helium also has its Helium Pulse application for the Web and for mobile devices. It enables remote monitoring and alerts so that companies can control Helium smart sensors, program alert parameters, and take other actions based on those insights. 
@@ -290,23 +296,7 @@ The ML world has many complex systems originally constructed in a variety of pro
 - [How Intel and GE plan to make cities smarter](http://venturebeat.com/2016/08/17/how-intel-and-ge-team-plan-to-make-cities-smarter/) Intel estimates that each one of us will use 1.5 gigabytes of data per day by 2020. A smart hospital will use 3,000 gigabytes a day. And a smart factory could use a million gigabytes of data per day. “We are at a line of demarcation where you embrace the future or you are unable to satisfy the needs of your customers,” said Immelt. “Every industrial company has to transform itself into a digital company.”
 - [Xperiel raises $7 million to connect the digital and real worlds with mixed reality](http://venturebeat.com/2016/08/11/xperiel-raises-7-million-to-connect-the-digital-and-real-worlds-with-mixed-reality/) Technology today is largely inadequate when it comes to addressing how to leverage the IoT and physical infrastructure to better engage customers and drive commerce,” said Stephen Hendrick, principal analyst for application development and deployment research at ESG, in a statement. “Xperiel is breaking new ground by providing a highly abstracted language for building event-driven, device-agnostic applications, as well as an IoT-centric connectivity fabric that ties together devices, events, and content to enable customer-engagement and commerce that is far more effective than other available solutions.”
 - [Onboard diagnostics will connect cars to the Internet of Things](http://venturebeat.com/2016/08/07/onboard-diagnostics-will-connect-cars-to-the-internet-of-things/) A 2011 Machina Research study forecasted that by 2022, there will be 1.8 billion machine-to-machine (M2M) automotive connections, consisting of 700 million connected cars and a $1.1 billion aftermarket in devices for services.
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
+- [Internet of random things: Fridges, doorbells, beds, and ovens are your connected future. Right?](http://venturebeat.com/2016/03/26/internet-of-random-things-fridges-doorbells-beds-and-ovens-are-your-connected-future-right/) San Francisco-based June announced a fresh $22.5 million funding round, taking its total money raised to the $30 million mark to help bring its smart oven to market. The June oven isn’t like any ordinary oven — this one sports a camera inside that uses deep learning techniques to figure out what you’re preparing, then sets the appropriate temperature to ensure your meal is adequately cooked. The news comes two weeks after newcomer and Y Combinator-backed Tovala launched a Kickstarter for its smart oven, a campaign that’s currently sitting at more than 200 percent of its target funding.
 - []()
 - []()
 - []()
@@ -369,11 +359,29 @@ The ML world has many complex systems originally constructed in a variety of pro
 - []()
 - []()
 
+# Appendix - Other
+- [Nvidia sees government as its next A.I. goldmine](http://venturebeat.com/2016/10/23/nvidia-ai-government/)
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+
 
 
 - []()
 
-starting to improve IOT and visualization sections
+starting to improve IOT and visualization-3
 
 
 
